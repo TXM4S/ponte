@@ -4,20 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <stripe-buy-button
+      buy-button-id="buy_btn_1NtH6jBFlO57ZuUxeuxtkONI"
+      publishable-key="pk_test_51NtH0ABFlO57ZuUxDRWM1FKQz6BVBJydbKoGfAIBk1kNzPos69Edb4Jc8b8lmEvwSIx2adahx5QAj7mN6ayVid3w00Ithijnk3"
+      >
+      </stripe-buy-button>
     </div>
   );
 }
