@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Topbar from './components/topbar';
 
 function App() {

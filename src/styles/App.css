@@ -1,3 +1,9 @@
+@import "./font.css";
+
+* {
+  font-family:'Myriad Pro', sans-serif;
+}
+
 .Topbar{
   display: flex;
   justify-content: center;
@@ -25,4 +31,21 @@
 .Burgermenu > svg{
   width: 100%;
   height: 100%;
+  cursor: pointer;
+}
+
+.Menulist {
+  font:small;
+  padding-left: 5px;
+  width: 100px;
+}
+
+.Menulist > p {
+  margin: 4px;
+  color: #626262;
+  cursor: pointer;
+}
+
+.Menulist > p:hover {
+  color: #000000;
 }
