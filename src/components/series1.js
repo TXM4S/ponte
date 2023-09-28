@@ -1,10 +1,5 @@
 import GalleryItem from "./galleryitem";
 import divorcedress from "../images/bg removed_1.svg";
-import img2 from "../images/bg removed_2.svg";
-import img3 from "../images/bg removed_3.svg";
-import img4 from "../images/bg removed_4.svg";
-import img5 from "../images/bg removed_5.svg";
-import img6 from "../images/bg removed_6.svg";
 
 
 const Series1 = ( props ) => {
