@@ -8,7 +8,7 @@ const Series1Product = (props) => {
                 <p>{props.product.Description}</p>
                 <p>{props.product.Kind}</p>
                 <p>€{props.product.Price}</p>
-                <a className="button" href={"mailto:tomasmccracken@icloud.com?subject=" + props.product.Name}>Enquire</a>
+                <a className="button" href={"mailto:contact@ponte.live?subject=" + props.product.Name}>Enquire</a>
             </div>
             <div className="scrollFooter"></div>
         </div>
