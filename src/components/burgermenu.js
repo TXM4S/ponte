@@ -3,16 +3,16 @@ import { useState } from "react";
 
 const Burgermenu = ( props ) => {
 
-    const [menuOpen, setMenuOpen] = useState(false);
 
     const handleClick = ( page ) => {
-        setMenuOpen(false);
+        props.setMenuOpen(false);
+        props.setShowTitle(true);
         props.setPage(page);
     }
 
     return (
         <div className="Burgermenu">
-            {(menuOpen) ?
+            {(props.menuOpen) ?
             <div className="Menulist">
                 <p onClick={() => handleClick(props.pageview.Series1)}>Series 1</p>
                 <p onClick={() => handleClick(props.pageview.Series2)}>Series 2</p>
@@ -20,7 +20,7 @@ const Burgermenu = ( props ) => {
                 <p onClick={() => handleClick(props.pageview.Contact)}>Contact</p>
             </div>
             : 
-            <RxHamburgerMenu onClick={() => setMenuOpen(true)} />}
+            <RxHamburgerMenu onClick={() => props.setMenuOpen(true)} />}
         </div>
     )
 }

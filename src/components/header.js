@@ -1,10 +1,19 @@
 import logo from '../images/PONTElogo.jpg';
 
 
-const logoheader = () => {
+const logoheader = ( props ) => {
+
+    const handleClick = () => {
+        props.setPage(props.pageview.Home);
+        props.setMenuOpen(false);
+        props.setShowTitle(false);
+    }
+
+
     return (
         <div className="header">
-            <img src={logo} alt="PONTE logo" />
+            <img onClick={handleClick} src={logo} alt="PONTE logo" />
+            {(props.showTitle) ? <p>{props.page}</p>: <p></p>}
         </div>
     ) 
 }
