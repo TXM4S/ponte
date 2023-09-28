@@ -9,13 +9,16 @@ import img6 from "../images/bg removed_6.svg";
 
 const Series1 = () => {
     return(
-        <div className="Gallery">
-            <GalleryItem image={img1} alt="Series 1" title="Series 1" description="This is the first series of the collection." />
-            <GalleryItem image={img2} alt="Series 2" title="Series 2" description="This is the second series of the collection." />
-            <GalleryItem image={img3} alt="Archetype" title="Archetype" description="This is the archetype of the collection." /> 
-            <GalleryItem image={img4} alt="Series 1" title="Series 1" description="This is the first series of the collection." />
-            <GalleryItem image={img5} alt="Series 2" title="Series 2" description="This is the second series of the collection." />
-            <GalleryItem image={img6} alt="Archetype" title="Archetype" description="This is the archetype of the collection." />
+        <div className="scrollable">
+            <div className="Gallery">
+                <GalleryItem image={img1} alt="Divorce Dress" title="Look 1" description="Divorce Dress" />
+                <GalleryItem image={img2} alt="Naked Sequin Skirt" title="Look 2" description="Naked Sequin Skirt" />
+                <GalleryItem image={img3} alt="Dot Dress" title="Look 3" description="Dot Dress" /> 
+                <GalleryItem image={img4} alt="Pleated Blouse Apron" title="Look 4" description="Pleated Blouse Apron" />
+                <GalleryItem image={img5} alt="Football Shirt" title="Look 5" description="Football Shirt" />
+                <GalleryItem image={img6} alt="George Thomas Parker" title="Look 6" description="George Thomas Parker" />
+            </div>
+            <div className="scrollFooter"></div>
         </div>
     );
 }

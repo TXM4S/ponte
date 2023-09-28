@@ -62,9 +62,15 @@ html, body, #root, .App {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 500px;
-  row-gap: 10px;
-  height: 100%;
+}
+
+.scrollable {
   overflow: scroll;
+  height: 100vh;
+}
+
+.scrollFooter{
+  height:50px;
 }
 
 .GalleryItem {
@@ -74,6 +80,7 @@ html, body, #root, .App {
   justify-content: center;
   cursor: pointer;
   height: 500px;
+  margin-bottom: 50px;
 }
 
 .GalleryItem:hover > img{
@@ -81,7 +88,13 @@ html, body, #root, .App {
   transition: transform 0.5s;
 }
 
+.GalleryItem >p:first-of-type{
+  margin-top: 20px;
+}
+
 .GalleryItem > p {
+  margin: 0;
+  padding: 0;
   visibility: hidden;
 }
 
