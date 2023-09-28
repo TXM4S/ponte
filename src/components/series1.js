@@ -5,7 +5,7 @@ import divorcedress from "../images/bg removed_1.svg";
 const Series1 = ( props ) => {
 
     const products = [
-        {Name : "Divorce Dress", "Image" : divorcedress, Description : "Mirror Shine printed poly coreseted midi dress with drysuit back zip, with removable utility doughnut belt", Price : 4500},
+        {Name : "Divorce Dress", "Image" : divorcedress, Description : "Mirror Shine printed poly coreseted midi dress with drysuit back zip, with removable utility doughnut belt", Kind:"One of a Kind" ,Price : 4500},
     ];
 
     const handleClick = ( product ) => {

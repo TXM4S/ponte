@@ -74,7 +74,7 @@ html, body, #root, .App {
 }
 
 .scrollFooter{
-  height:100px;
+  height:200px;
 }
 
 .GalleryItem {
@@ -109,9 +109,31 @@ html, body, #root, .App {
 .productInfo{
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+
+.productInfo > p:first-of-type{
+  margin-top: 75px;
+  font-weight: bold;
+}
+
+.productInfo > p {
+  width: 300px;
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .productImage{

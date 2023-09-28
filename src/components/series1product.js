@@ -6,7 +6,11 @@ const Series1Product = (props) => {
                 <img className="productImage" src={props.product.Image} alt={props.product.Name} />
                 <p>{props.product.Name}</p>
                 <p>{props.product.Description}</p>
+                <p>{props.product.Kind}</p>
+                <p>€{props.product.Price}</p>
+                <a className="button" href={"mailto:tomasmccracken@icloud.com?subject=" + props.product.Name}>Enquire</a>
             </div>
+            <div className="scrollFooter"></div>
         </div>
     );
 }
