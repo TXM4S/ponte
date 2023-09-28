@@ -1,5 +1,4 @@
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useState } from "react";
 
 const Burgermenu = ( props ) => {
 
