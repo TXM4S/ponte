@@ -1,10 +1,10 @@
 import Logoheader from "./header";
 import Burgermenu from "./burgermenu";
 
-function Topbar() {
+function Topbar( props ) {
     return (
         <div className="Topbar">
-            <Burgermenu/>
+            <Burgermenu {...props} />
             <Logoheader/>
         </div>
     )
