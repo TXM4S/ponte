@@ -29,6 +29,14 @@ html, body, #root, .App {
 .header > img {
   width: 100px;
   padding: 25px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.header > p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
   cursor: pointer;
 }
 
