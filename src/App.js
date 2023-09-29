@@ -25,7 +25,7 @@ function App() {
                 return <Series1 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
             case PageView.Series1ProductPage:
                 console.log("test");
-                return <Series1Product product={currentProductPage} />;
+                return <Series1Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
             default:
                 return <></>;        
         }

@@ -79,6 +79,7 @@ html, body, #root, .App {
 .scrollable {
   overflow: scroll;
   height: 100vh;
+  width: 100%;
 }
 
 .scrollFooter{
@@ -105,12 +106,13 @@ html, body, #root, .App {
 }
 
 .GalleryItem >p:first-of-type {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .GalleryItem > p {
   margin: 0;
   padding: 0;
+  font-weight: bold;
   visibility: hidden;
 }
 
@@ -137,16 +139,37 @@ html, body, #root, .App {
   white-space: pre-wrap;
 }
 
+
+.back{
+  margin-left: 100px;
+}
+
 .button {
-  background-color: #000000;
-  border: none;
-  color: white;
-  padding: 10px 20px;
+  background-color: #ffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.button:hover {
+  animation: buttonhover 0.5s forwards;
+}
+
+@keyframes buttonhover {
+  0% {
+    background-color: #ffff;
+    color: #000000;
+  }
+  100% {
+    background-color: #000000;
+    color: #ffffff;
+  } 
 }
 
 .productImage {
@@ -162,5 +185,11 @@ html, body, #root, .App {
 @media screen and (max-width: 480px) {
   .Gallery {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .Series1Product{
+    text-align: center;
+  }
+  .back{
+    margin-left: 0px;
   }
 }
