@@ -9,7 +9,7 @@ const Series1Product = (props) => {
 
     return (
         <div className="Series1Product">
-            <a className="button back" onClick={handleClick}> Back to Series 1</a>
+            <button className="button back" onClick={handleClick}> Back to Series 1</button>
             <div className="scrollable">
                 <div className="productInfo">
                     <img className="productImage" src={props.product.Image} alt={props.product.Name} />
