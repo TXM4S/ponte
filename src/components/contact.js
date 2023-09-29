@@ -7,7 +7,7 @@ const Contact = () => {
         <img src= {Image} alt="Model"/> 
         <div className="mediabuttons">
             <a href={"mailto:contact@ponte.live?subject= General Enquiry" } className="button">Email</a>
-            <a target="_blank" href={"https://www.instagram.com/__ponte___/"} className="button">Instagram</a>
+            <a target="_blank" rel="noreferrer" href={"https://www.instagram.com/__ponte___/"} className="button">Instagram</a>
         </div>
     </div>
  )

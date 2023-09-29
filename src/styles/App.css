@@ -223,6 +223,10 @@ html, body, #root, .App {
   }
   .back{
     margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .scrollFooter{
+    height:200px;
   }
   .contact{
     flex-direction: column;
