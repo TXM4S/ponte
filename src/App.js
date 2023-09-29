@@ -3,6 +3,7 @@ import Topbar from './components/topbar';
 import { useState } from 'react';
 import Series1 from './components/series1';
 import Series1Product from './components/series1product';
+import Contact from './components/contact';
 
 function App() {
     const PageView = {
@@ -26,6 +27,8 @@ function App() {
             case PageView.Series1ProductPage:
                 console.log("test");
                 return <Series1Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
+            case PageView.Contact:
+                return <Contact/>
             default:
                 return <></>;        
         }

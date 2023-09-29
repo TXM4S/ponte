@@ -176,9 +176,41 @@ html, body, #root, .App {
   width: 350px;
 }
 
+.contact{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+
+.mediabuttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mediabuttons > a {
+  width: 150px;
+}
+
+.contact > img {
+  width: 35%;
+}
+
 @media screen and (max-width: 768px) {
   .Gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .contact{
+    flex-direction: column;
+  }
+  .contact > img {
+    width: 60%;
   }
 }
 
@@ -191,5 +223,11 @@ html, body, #root, .App {
   }
   .back{
     margin-left: 0px;
+  }
+  .contact{
+    flex-direction: column;
+  }
+  .contact > img {
+    width: 60%;
   }
 }
