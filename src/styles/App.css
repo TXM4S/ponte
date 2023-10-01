@@ -10,6 +10,7 @@ html, body, #root, .App {
 
 * {
   font-family:'Myriad Pro', sans-serif;
+  font-size: 12px;
 }
 
 .Topbar {
