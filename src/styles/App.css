@@ -244,7 +244,7 @@ html, body, #root, .App {
     margin-bottom: 10px;
   }
   .scrollFooter{
-    height:200px;
+    height:250px;
   }
   .contact{
     flex-direction: column;
