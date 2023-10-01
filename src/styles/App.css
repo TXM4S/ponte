@@ -236,6 +236,9 @@ html, body, #root, .App {
   .Series1Product{
     text-align: center;
   }
+  .Series2Product{
+    text-align: center;
+  }
   .back{
     margin-left: 0px;
     margin-bottom: 10px;
