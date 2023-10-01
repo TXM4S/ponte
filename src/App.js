@@ -38,6 +38,8 @@ function App() {
             //    return <Series2 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
             //case PageView.Series2ProductPage:
             //    return <Series2Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
+            case PageView.Archetype:
+                return <ComingSoon />;
             case PageView.Contact:
                 return <Contact/>
             default:
