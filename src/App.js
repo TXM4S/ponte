@@ -32,10 +32,10 @@ function App() {
                 return <Series1 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
             case PageView.Series1ProductPage:
                 return <Series1Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
-            case PageView.Series2:
-                return <Series2 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
-            case PageView.Series2ProductPage:
-                return <Series2Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
+            //case PageView.Series2:
+            //    return <Series2 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
+            //case PageView.Series2ProductPage:
+            //    return <Series2Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
             case PageView.Contact:
                 return <Contact/>
             default:
