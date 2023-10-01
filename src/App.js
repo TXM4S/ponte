@@ -4,8 +4,8 @@ import { useState } from 'react';
 import Home from './components/home';
 import Series1 from './components/series1';
 import Series1Product from './components/series1product';
-import Series2 from './components/series2';
-import Series2Product from './components/series2product';
+//import Series2 from './components/series2';
+//import Series2Product from './components/series2product';
 import Contact from './components/contact';
 
 function App() {
