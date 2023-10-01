@@ -44,7 +44,7 @@ const Series1 = ( props ) => {
         {Name : "Naked Sequin Skirt", Image : nakedsequinskirt, Description : "Nude stretch skirt, with removable sequin front panel with dress function", Kind:"One of a Kind" ,Price : 350},
         {Name : "Wig Skirt", Image : wigskirt, Description : "Recomposed wig applique cotton base mini skirt", Kind:"One of a Kind" ,Price : 400},
         {Name : "The Rory Dress", Image : therorydress, Description : "Rose pink silk pleated dress with front button opening", Kind:"One of a Kind" ,Price : 700},
-        {Name : "Raw Suit", Image : rawsuit, Description : "Wool raw edge cut suit with chalk detailing \n Trousers 300, Blazer 400", Kind:"One of a Kind" ,Price : 700},
+        {Name : "Raw Suit", Image : rawsuit, Description : "Wool raw edge cut suit with chalk detailing \n\n Trousers 300, Blazer 400", Kind:"One of a Kind" ,Price : 700},
         {Name : "New Rich Dress", Image : newrichdress, Description : "Deadstock faux fur corseted strapless dress with removable utility doughnut belt", Kind:"One of a Kind" ,Price : 5000},
         {Name : "Tulle T", Image : tullet, Description : "Tulle two-tone double layer t-shirt", Kind:"One of a Kind" ,Price : 80},
         {Name : "Knitted Briefs", Image : knittedbriefs, Description : "Alpaca and wool blend hand knitted y-front briefs", Kind:"One of a Kind" ,Price : 200},
@@ -53,7 +53,7 @@ const Series1 = ( props ) => {
         {Name : "Suede Cargo", Image : suedecargo, Description : "Multi pocket cargo in deadstock goat suede", Kind:"One of a Kind" ,Price : 1500},
         {Name : "George Thomas Dress", Image : georgethomasdress, Description : "Recomposed surplus shearling patched dress in chocolate brown with tonal cotton viscose lining", Kind:"One of a Kind" ,Price : 2500},
         {Name : "Curly Mini Dress", Image : curlyminidress, Description : "Removable deadstock shearling panelled stretch corset mini dress", Kind:"One of a Kind" ,Price : 800},
-        {Name : "The Pink Suit", Image : thepinksuit, Description : "Raw edge cut deadstock Ponte milano jersey three button suit, with silk covered shoulder pads \n Jacket 150, Skirt 80", Kind:"One of a Kind" ,Price : 230},
+        {Name : "The Pink Suit", Image : thepinksuit, Description : "Raw edge cut deadstock Ponte milano jersey three button suit, with silk covered shoulder pads \n\n Jacket 150, Skirt 80", Kind:"One of a Kind" ,Price : 230},
         {Name : "Quiet Coat", Image : quietcoat, Description : "Drill gaberdine car coat with black bra strap martangal", Kind:"One of a Kind" ,Price : 600},
         {Name : "Chainmail Disco Dress", Image : chainmaildiscodress, Description : "Chain mail ring linked dress, with recomposed chain straps", Kind:"One of a Kind" ,Price : 1300}
     ];
