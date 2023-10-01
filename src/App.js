@@ -7,6 +7,7 @@ import Series1Product from './components/series1product';
 //import Series2 from './components/series2';
 //import Series2Product from './components/series2product';
 import Contact from './components/contact';
+import ComingSoon from './components/comingsoon';
 
 function App() {
     const PageView = {
@@ -32,7 +33,8 @@ function App() {
                 return <Series1 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
             case PageView.Series1ProductPage:
                 return <Series1Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
-            //case PageView.Series2:
+            case PageView.Series2:
+                return <ComingSoon />;
             //    return <Series2 setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
             //case PageView.Series2ProductPage:
             //    return <Series2Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;

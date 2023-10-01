@@ -212,6 +212,17 @@ html, body, #root, .App {
   width: 35%;
 }
 
+.ComingSoon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ComingSoon > p {
+  margin-bottom: 250px;
+}
+
 @media screen and (max-width: 820px) {
   .Gallery {
     grid-template-columns: repeat(2, 1fr);
