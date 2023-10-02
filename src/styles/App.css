@@ -81,6 +81,7 @@ html, body, #root, .App {
 
 .HomeImage {
   width: 25%;
+  margin-bottom: 100px;
 }
 
 .Gallery {
@@ -186,6 +187,38 @@ html, body, #root, .App {
   width: 350px;
 }
 
+.imageSelection {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.smallimage {
+  width: 100px;
+  cursor: pointer;
+}
+
+.selected {
+  border: 1px solid #000000;
+}
+
+.sizeSelection {
+  display: flex;
+  gap: 10px;
+}
+.fill{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.wide {
+  width: 250px;
+}
+
 .contact{
   display: flex; 
   justify-content: center;
@@ -263,5 +296,17 @@ html, body, #root, .App {
   }
   .HomeImage {
     width: 75%;
+  }
+  .productImage{
+    display: none;
+  }
+  .imageSelection {
+    flex-direction: column;
+  }
+  .smallimage{
+    width: 350px;
+  }
+  .selected{
+    border: none;
   }
 }

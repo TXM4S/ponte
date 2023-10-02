@@ -6,8 +6,9 @@ import Series1 from './components/series1';
 import Series1Product from './components/series1product';
 import Series2 from './components/series2';
 import Series2Product from './components/series2product';
+import Archetype from './components/archetype';
+import ArchetypeProduct from './components/archetypeproduct';
 import Contact from './components/contact';
-import ComingSoon from './components/comingsoon';
 
 function App() {
     const PageView = {
@@ -18,6 +19,7 @@ function App() {
         Contact: "Contact",
         Series1ProductPage: "Series 1 Product Page",
         Series2ProductPage: "Series 2 Product Page",
+        ArchetypeProductPage: "Archetype Product Page"
     }
 
 
@@ -38,7 +40,9 @@ function App() {
             case PageView.Series2ProductPage:
                 return <Series2Product setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
             case PageView.Archetype:
-                return <ComingSoon />;
+                return <Archetype setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage}/>;
+            case PageView.ArchetypeProductPage:
+                return <ArchetypeProduct setShowTitle={setShowTitle} setPage={setPage} pageview={PageView} setCurrentProductPage={setCurrentProductPage} product={currentProductPage} />;
             case PageView.Contact:
                 return <Contact/>
             default:

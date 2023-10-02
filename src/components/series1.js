@@ -52,7 +52,7 @@ const Series1 = ( props ) => {
         {Name : "LOOK 20", Image : suedebody, Description : "Multi tone boned short body suit in deadstock goat suede", Kind:"One of a Kind" ,Price : 5400},
         {Name : "LOOK 21", Image : suedecargo, Description : "Multi pocket cargo in deadstock goat suede", Kind:"One of a Kind" ,Price : 4050},
         {Name : "LOOK 22", Image : georgethomasdress, Description : "Recomposed surplus shearling patched dress in chocolate brown with tonal cotton viscose lining", Kind:"One of a Kind" ,Price : 6750},
-        {Name : "LOOK 23", Image : curlyminidress, Description : "Removable deadstock shearling panelled stretch corset mini dress", Kind:"One of a Kind" ,Price : 2160},
+        {Name : "LOOK 23", Image : curlyminidress, Description : "Removable deadstock shearling panelled stretch corset mini dress", Kind:"One of a Kind" ,Price : 4600},
         {Name : "LOOK 24", Image : thepinksuit, Description : "Raw edge cut deadstock Ponte milano jersey three button suit, with silk covered shoulder pads \n\n Jacket 150, Skirt 80", Kind:"One of a Kind" ,Price : 621},
         {Name : "LOOK 25", Image : quietcoat, Description : "Drill gaberdine car coat with black bra strap martangal", Kind:"One of a Kind" ,Price : 1620},
         {Name : "LOOK 26", Image : chainmaildiscodress, Description : "Chain mail ring linked dress, with recomposed chain straps", Kind:"One of a Kind" ,Price : 3510}
@@ -66,7 +66,7 @@ const Series1 = ( props ) => {
     }
 
     const galleryitemarray = products.map((product, index) => {
-        return <GalleryItem key={index} {...props} product={product} handleClick={handleClick} image={product.Image} alt={product.Name} look={"Look "+ (index+1)} name={product.Name} />
+        return <GalleryItem key={index} {...props} product={product} handleClick={handleClick} image={product.Image} alt={product.Name} name={product.Name} />
     });
 
     return(
