@@ -25,7 +25,7 @@ const ArchetypeProduct = ( props ) => {
                     <img className="productImage" src={image} alt={props.product.Name} />
                     <div className="imageSelection">
                         {imageArray.map((i, index) => (
-                            <img key={index} className={(image == i) ? "smallimage selected" : "smallimage"} src={i} alt={props.product.Name} onClick={() => setImage(i)} />
+                            <img key={index} className={(image === i) ? "smallimage selected" : "smallimage"} src={i} alt={props.product.Name} onClick={() => setImage(i)} />
                         ))}
                     </div>
                     <p>{props.product.Name}</p>
