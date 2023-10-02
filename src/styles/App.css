@@ -256,7 +256,7 @@ html, body, #root, .App {
   margin-bottom: 250px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 825px) {
   .Gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -268,6 +268,10 @@ html, body, #root, .App {
   }
   .HomeImage {
     width: 75%;
+  }
+  .imageSelection {
+    width: 95%;
+    overflow-y: scroll;
   }
 }
 
