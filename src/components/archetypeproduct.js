@@ -38,7 +38,7 @@ const ArchetypeProduct = ( props ) => {
                         <button className={(size === 1) ? "button fill" : "button"} onClick={() => setSize(1)}>M</button>
                         <button className={(size === 2) ? "button fill" : "button"} onClick={() => setSize(2)}>L</button>
                     </div> : <></>}
-                    <a target="_blank" href={linkArray[size]} className="button wide">Buy</a>
+                    <a target="_blank" rel="noreferrer" href={linkArray[size]} className="button wide">Buy</a>
                 </div>
                 <div className="scrollFooter"></div>
             </div>
