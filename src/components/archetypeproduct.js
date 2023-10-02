@@ -34,9 +34,9 @@ const ArchetypeProduct = ( props ) => {
                     <p>€{props.product.Price}</p>
                     <p>AVALIABLE FOR PRE-ORDER SPRING/SUMMER 24</p>
                     {props.product.Sizes ? <div className="sizeSelection">
-                        <button className={(size == 0) ? "button fill" : "button"} onClick={() => setSize(0)}>S</button>
-                        <button className={(size == 1) ? "button fill" : "button"} onClick={() => setSize(1)}>M</button>
-                        <button className={(size == 2) ? "button fill" : "button"} onClick={() => setSize(2)}>L</button>
+                        <button className={(size === 0) ? "button fill" : "button"} onClick={() => setSize(0)}>S</button>
+                        <button className={(size === 1) ? "button fill" : "button"} onClick={() => setSize(1)}>M</button>
+                        <button className={(size === 2) ? "button fill" : "button"} onClick={() => setSize(2)}>L</button>
                     </div> : <></>}
                     <a target="_blank" href={linkArray[size]} className="button wide">Buy</a>
                 </div>
