@@ -273,6 +273,9 @@ html, body, #root, .App {
     width: 95%;
     overflow-y: scroll;
   }
+  .scrollFooter{
+    height:250px;
+  }
 }
 
 @media screen and (max-width: 480px) {
