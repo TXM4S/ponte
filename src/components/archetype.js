@@ -32,10 +32,10 @@ import archetype6b from "../images/ARCHETYPES6B.jpg";
 import archetype6c from "../images/ARCHETYPES6C.jpg";
 import archetype6d from "../images/ARCHETYPES6D.jpg";
 import archetype6e from "../images/ARCHETYPES6E.jpg";
-import archetype7a from "../images/ARCHETYPES9A.jpg";
-import archetype7b from "../images/ARCHETYPES9B.jpg";
-import archetype7c from "../images/ARCHETYPES9C.jpg";
-import archetype7d from "../images/ARCHETYPES9D.jpg";
+import archetype7a from "../images/ARCHETYPES7A.jpg";
+import archetype7b from "../images/ARCHETYPES7B.jpg";
+import archetype7c from "../images/ARCHETYPES7C.jpg";
+import archetype7d from "../images/ARCHETYPES7D.jpg";
 import archetype8a from "../images/ARCHETYPES8A.jpg";
 import archetype8b from "../images/ARCHETYPES8B.jpg";
 import archetype8c from "../images/ARCHETYPES8C.jpg";
@@ -43,6 +43,7 @@ import archetype8d from "../images/ARCHETYPES8D.jpg";
 import archetype8e from "../images/ARCHETYPES8E.jpg";
 import archetype8f from "../images/ARCHETYPES8F.jpg";
 import archetype8g from "../images/ARCHETYPES8G.jpg";
+import archetype9a from "../images/ARCHETYPES9A.jpg";
 
 
 const Archetype = ( props ) => {
@@ -55,7 +56,8 @@ const Archetype = ( props ) => {
         {Name : "Archetype 5 ", Image: [archetype5a, archetype5b, archetype5c, archetype5d, archetype5f, archetype5g], Description : "Recomposed M65 army jacket", Kind:"series one of 50" , Link: ["https://buy.stripe.com/9AQ7vm1VB5tg5Rm14i", "https://buy.stripe.com/dR64jaeInf3Q6Vq3cr", "https://buy.stripe.com/6oEcPG8jZ5tggw0aEU"], Sizes: true  ,Price : 960},
         {Name : "Archetype 6 ", Image: [archetype6a, archetype6b, archetype6c, archetype6d, archetype6e], Description : "Recomposed M65 army lining shirt", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/6oE5neas7bREgw08wN", "https://buy.stripe.com/8wM02U43J6xk2Fa7sK", "https://buy.stripe.com/5kA6ribwbbRE5RmcN5"], Price : 1100},
         {Name : "Archetype 7 ", Image: [archetype7a, archetype7b, archetype7c, archetype7d], Description : "Hand flocked T shirt", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/bIY9Du2ZFdZM0x2cN6", "https://buy.stripe.com/9AQbLCcAf1d0enS8wR", "https://buy.stripe.com/aEU2b27fV9Jwgw05kG"] ,Price : 390},
-        {Name : "Archetype 8 ", Image: [archetype8a, archetype8b, archetype8c, archetype8d, archetype8e, archetype8f, archetype8g], Description : "Recomposed M65 army jacket pencil skirt with jock strap waistband", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/7sIg1S6bR3l84Ni6oL", "https://buy.stripe.com/cN2cPG43JdZMenSeVi", "https://buy.stripe.com/6oEbLC8jZ4pcgw03cB"] ,Price : 945},
+        {Name : "Archetype 8 ", Image: [archetype8a, archetype8b, archetype8c, archetype8d, archetype8e, archetype8f, archetype8g], Description : "Recomposed pencil skirt made from chosen parts of 2 M56 army jackets with internal jock strap waitband", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/7sIg1S6bR3l84Ni6oL", "https://buy.stripe.com/cN2cPG43JdZMenSeVi", "https://buy.stripe.com/6oEbLC8jZ4pcgw03cB"] ,Price : 945},
+        {Name : "Archetype 9 ", Image: [archetype9a], ""}
     ];
 
     const handleClick = ( product ) => {
