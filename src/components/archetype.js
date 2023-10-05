@@ -57,7 +57,7 @@ const Archetype = ( props ) => {
         {Name : "Archetype 6 ", Image: [archetype6a, archetype6b, archetype6c, archetype6d, archetype6e], Description : "Recomposed M65 army lining shirt", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/6oE5neas7bREgw08wN", "https://buy.stripe.com/8wM02U43J6xk2Fa7sK", "https://buy.stripe.com/5kA6ribwbbRE5RmcN5"], Price : 1100},
         {Name : "Archetype 7 ", Image: [archetype7a, archetype7b, archetype7c, archetype7d], Description : "Hand flocked T shirt", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/bIY9Du2ZFdZM0x2cN6", "https://buy.stripe.com/9AQbLCcAf1d0enS8wR", "https://buy.stripe.com/aEU2b27fV9Jwgw05kG"] ,Price : 390},
         {Name : "Archetype 8 ", Image: [archetype8a, archetype8b, archetype8c, archetype8d, archetype8e, archetype8f, archetype8g], Description : "Recomposed pencil skirt made from chosen parts of 2 M56 army jackets with internal jock strap waitband", Kind:"series one of 50" , Sizes: true , Link: ["https://buy.stripe.com/7sIg1S6bR3l84Ni6oL", "https://buy.stripe.com/cN2cPG43JdZMenSeVi", "https://buy.stripe.com/6oEbLC8jZ4pcgw03cB"] ,Price : 945},
-        {Name : "Archetype 9 ", Image: [archetype9a], Description: "Recomposed jerry cloth tube tank with raw cut neckline and arm opennings",Description : "Recomposed jerry cloth tube tank", Kind:"series one of 50" , Sizes: false , Link : ["https://buy.stripe.com/aEU16YdEj2h4djO5kL"] ,Price : 380}
+        {Name : "Archetype 9 ", Image: [archetype9a], Description: "Recomposed jerry cloth tube tank with raw cut neckline and arm opennings", Kind:"series one of 50" , Sizes: false , Link : ["https://buy.stripe.com/aEU16YdEj2h4djO5kL"] ,Price : 380}
     ];
 
     const handleClick = ( product ) => {
