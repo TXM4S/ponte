@@ -32,11 +32,11 @@ const ArchetypeProduct = () => {
             <div className="scrollable">
                 <div className="productInfo">
                     {product ? <img className="productImage archetype" src={image} alt={product && product.Name} /> : <></>}
-                    {product ? <div className="imageSelection">
+                    <div className="imageSelection">
                         {imageArray.map((i, index) => (
                             <img key={index} className={(image === i) ? "smallimage selected" : "smallimage"} src={i} alt={product && product.Name} onClick={() => setImage(i)} />
                         ))}
-                    </div> : <></>}
+                    </div>
                     <p>{product && product.Name}</p>
                     <p>{product && product.Description}</p>
                     <p>{product && product.Kind}</p>
