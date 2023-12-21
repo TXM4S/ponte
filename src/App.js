@@ -1,11 +1,6 @@
 import './styles/App.css';
 import Topbar from './components/topbar';
 import { useState } from 'react';
-import Home from './components/home';
-import Series1Product from './components/series1product';
-import Series2Product from './components/series2product';
-import ArchetypeProduct from './components/archetypeproduct';
-import Contact from './components/contact';
 import { Outlet } from 'react-router-dom';
 
 function App() {
