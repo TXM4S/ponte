@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getArchetypeProduct, getArchetypeLength } from "../data";
 
@@ -20,7 +20,7 @@ const ArchetypeProduct = () => {
 
     const product = getArchetypeProduct(id);
 
-    const imageArray = product ? product.Image : [];
+    const imageArray = useMemo(() => product ? product.Image : [], [product]);
     const linkArray = product ? product.Link : [];
 
     useEffect(() => {
@@ -32,11 +32,11 @@ const ArchetypeProduct = () => {
             <div className="scrollable">
                 <div className="productInfo">
                     {product ? <img className="productImage archetype" src={image} alt={product && product.Name} /> : <></>}
-                    <div className="imageSelection">
+                    {product ? <div className="imageSelection">
                         {imageArray.map((i, index) => (
                             <img key={index} className={(image === i) ? "smallimage selected" : "smallimage"} src={i} alt={product && product.Name} onClick={() => setImage(i)} />
                         ))}
-                    </div>
+                    </div> : <></>}
                     <p>{product && product.Name}</p>
                     <p>{product && product.Description}</p>
                     <p>{product && product.Kind}</p>
